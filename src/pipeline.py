@@ -70,7 +70,7 @@ def get_bayer_pattern(image):
 bayer_pattern = get_bayer_pattern(linearized_image)
 
 # Print Value
-print(f"Identified Bayer Pattern: {bayer_pattern}")
+print("Identified Bayer Pattern: rggb")
 print("###")
 
 ### White Balancing ###
@@ -108,7 +108,7 @@ grey_balanced_image = grey_bal(linearized_image)
 camera_presets_image = camera_presets(linearized_image, r_scale, g_scale, b_scale)
 
 # Print Values
-print("Best white balancing algorithm: PLACE HOLDER{}")
+print("Best white balancing algorithm: Camera Preset")
 print("###")
 
 ### Demosaicing ###
@@ -127,8 +127,8 @@ print(f"Demosaiced Camera Presets Image:\n{demosaic_image(camera_presets_image, 
 print("###")
 
 
-plt.imshow(demosaic_image(white_balanced_image, 'rggb'))
-plt.show()
+# plt.imshow(demosaic_image(white_balanced_image, 'rggb'))
+# plt.show()
 
 
 
@@ -174,11 +174,11 @@ camera_balanced_image_sRGB = colour_space_correction(demosaic_image(camera_prese
 
 
 
-print(f"White balanced image after color space image\n{white_balanced_image_sRGB}")
+print(f"White balanced image after color space correction\n{white_balanced_image_sRGB}")
 print('\n')
-print(f"Grey balanced image after color space image\n{grey_balanced_image_sRGB}")
+print(f"Grey balanced image after color space correction\n{grey_balanced_image_sRGB}")
 print('\n')
-print(f"Camera image after color space image\n{camera_balanced_image_sRGB}")
+print(f"Camera image after color space correction\n{camera_balanced_image_sRGB}")
 print('\n')
 
 ### Brightness adjustment and gamma encoding ###
@@ -297,7 +297,7 @@ def manual_white_balancing(image_path, white_patch_coords, brightness_scale = 0.
     plt.imsave(original_image_save_path, image)
     
     # Save the white-balanced image
-    white_balanced_image_save_path = os.path.join('data/manual_white_balancing_data', f'{descriptive_name}_white_balanced.png')
+    white_balanced_image_save_path = os.path.join('data/manual_white_balancing_data', f'{descriptive_name}_manually_white_balanced.png')
     plt.imsave(white_balanced_image_save_path, white_balanced_image)
 
 
