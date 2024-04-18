@@ -1,5 +1,5 @@
 # 790_ISP
-COMP 790 ISP Pipeline 
+ISP Pipeline 
 
 # Image Processing Pipeline Documentation
 
