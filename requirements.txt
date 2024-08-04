@@ -1,32 +1,24 @@
 blinker==1.8.2
-click @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/click_1699237822453/work
+click==8.0.3
 colour-demosaicing==0.2.5
 colour-science==0.4.4
 contourpy==1.2.1
 cycler==0.12.1
-Flask @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b6zka5i2cn/croot/flask_1716545886197/work
+Flask==2.1.3
 Flask-Cors==4.0.1
 fonttools==4.51.0
-imagecodecs @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/imagecodecs_1699241106295/work
-imageio @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_3d_rw6fwwk/croot/imageio_1707247298334/work
-itsdangerous @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_00jdi1gu23/croot/itsdangerous_1716533346702/work
-Jinja2 @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_44yzu12j7f/croot/jinja2_1716993410427/work
+imagecodecs==2021.8.26
+imageio==2.16.2
+itsdangerous==2.1.2
+Jinja2==3.1.2
 kiwisolver==1.4.5
-lazy_loader @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/lazy_loader_1699242279651/work
 MarkupSafe==2.1.5
 matplotlib==3.8.4
-networkx @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/networkx_1699242555148/work
-numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a51i_mbs7m/croot/numpy_and_numpy_base_1708638620867/work/dist/numpy-1.26.4-cp312-cp312-macosx_11_0_arm64.whl#sha256=37afb6b734a197702d848df93bd67c10b52f6467d56e518950d84b6b1c949d27
-packaging @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a6lqg7at4g/croot/packaging_1710807410750/work
-pillow @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_e02b4k5qik/croot/pillow_1707233036487/work
+networkx==2.8.8
+numpy==1.26.4
+packaging==21.3
+pillow==8.4.0
 prettier==0.0.7
 pyparsing==3.1.2
-python-dateutil==2.9.0.post0
-scikit-image @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_afct9vfeyr/croot/scikit-image_1707346121694/work
-scipy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_41w43uybvr/croot/scipy_1710947318888/work/dist/scipy-1.12.0-cp312-cp312-macosx_11_0_arm64.whl#sha256=6d0bd33dad506a4aab2a959ba54ce86d5b73996866b855ded741cfcedfadb1c9
-setuptools==68.2.2
-six==1.16.0
-tifffile @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/tifffile_1699243525693/work
-typing_extensions==4.11.0
-Werkzeug @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5bnbxlhunm/croot/werkzeug_1716533322814/work
-wheel==0.41.2
+python-dateutil==2.9.0
+scikit-image==0.19.3

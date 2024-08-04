@@ -1,6 +1,16 @@
 # 790_ISP
 ISP Pipeline 
 
+### Launch Instructions
+
+1. **Install Dependencies:** Ensure all required packages from `requirements.txt` are installed.
+
+2. **Start the Application:** Run the application with the command:
+   
+   python app.py
+
+3. **View the Project:** Open your web browser and navigate to http://127.0.0.1:5000/ to view the project.
+
 # Image Processing Pipeline Documentation
 
 This document provides a comprehensive guide on using the Image Processing Pipeline script, which is designed for processing raw images through various stages including linearization, white balancing, demosaicing, color space correction, gamma encoding, and compression.
@@ -38,10 +48,11 @@ Before running the script, ensure you have the following dependencies installed:
 - matplotlib
 - Pillow
 - colour_demosaicing
+- Flask
 
-You can install these dependencies using pip or conda:
+You can install these dependencies using pip:
 
 ```bash
-pip install numpy scipy scikit-image matplotlib pillow colour-demosaicing flask
-conda install numpy scipy scikit-image matplotlib pillow colour-demosaicing flask
+pip install -r requirements.txt
+
 
