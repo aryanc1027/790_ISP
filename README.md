@@ -1,5 +1,5 @@
-# 790_ISP
-ISP Pipeline 
+# ISP Pipeline 
+
 
 ### Launch Instructions
 
