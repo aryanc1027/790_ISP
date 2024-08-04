@@ -42,6 +42,6 @@ Before running the script, ensure you have the following dependencies installed:
 You can install these dependencies using pip or conda:
 
 ```bash
-pip install numpy scipy scikit-image matplotlib pillow colour-demosaicing
-conda install numpy scipy scikit-image matplotlib pillow colour-demosaicing
+pip install numpy scipy scikit-image matplotlib pillow colour-demosaicing flask
+conda install numpy scipy scikit-image matplotlib pillow colour-demosaicing flask
 
