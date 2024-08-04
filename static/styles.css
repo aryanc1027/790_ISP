@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #008080;
+}
+
+#app {
+    background: #E0FFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#upload-section, #white-balance-section, #processing-section, #result-section {
+    margin-bottom: 20px;
+}
+
+#image-preview {
+    margin-top: 10px;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    border: 1px solid #726f6f;
+    margin-top: 10px;
+}
+
+#error-message {
+    display: none; /* Hidden by default */
+    color: #d9534f; /* Bootstrap's danger color */
+    background-color: #f8d7da; /* Light red background */
+    border: 1px solid #f5c6cb; /* Light red border */
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#progress-bar-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    height: 10px; 
+}
+
+#progress-bar {
+    width: 0;
+    height: 100%; 
+    background-color: #3498db; 
+    border-radius: 5px;
+}
+
+
+
